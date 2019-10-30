@@ -1,0 +1,38 @@
+.img-fluid-service {
+    max-width: 70%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .div-service:hover{
+        /*transform: scale(1.1);*/
+        box-shadow: 1px 1px 2px #999;
+        background-color: #eef0f3;
+    }
+  
+}
+
+@media (min-width: 992px) {
+    .detalles-saturate:hover{
+        filter:saturate(180%);
+    }
+    .detalles-saturate{
+        filter:grayscale(30%);
+
+    }
+}
+.p-white{
+    color:white;
+}
+
+.p-white:before{
+    color:white !important;
+}
+
+.back-to-top-custom i {
+    padding-top: 12px;
+    color: #fff;
+}
+.box-height-91{
+    height: 91%;
+}
